@@ -1,3 +1,42 @@
-h1 {
-  color: #999;
+
+$font-serif: 'Volkhov', serif;
+
+$font-bold: 'Abril Fatface', cursive;
+
+$font-text: 'News Cycle', sans-serif;
+
+$text-color: #494C4F;
+
+body {
+  background: #eef2ed;
+  color: $text-color;
+  font-family: $font-text;
 }
+h1 {
+  color: #505447;
+  font-family: $font-bold;
+}
+
+.showName {
+  font-family: $font-text;
+  text-align: center;
+  font-size: 1.5em;
+  h1 {
+    font-family: $font-bold;
+  }
+}
+
+
+.showRepo {
+    list-style: none;
+    li {
+      font-size: 1.5em;
+      a {
+        text-decoration: none;
+        color: #E29B8F;
+      }
+    }
+    p {
+      color: #494C4F;
+    }
+  }

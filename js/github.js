@@ -1,7 +1,9 @@
 var apiKey = require('./../.env').apiKey;
 
 
-exports.getRepos = function(){
+exports.getUser = function(){
+  userName = $('#userName').val();
+  $("#username").val("");
   $.get('https://api.github.com/users/' + userName + '?access_token=' + apiKey).then(function(response){
       console.log(response);
     $('.showName').append (
@@ -12,13 +14,15 @@ exports.getRepos = function(){
   }).fail(function(error){
     console.log(error.responseJSON.message);
   });
+};
 
+
+exports.getRepos = function(){
   $.get('https://api.github.com/users/' + userName + '/repos?access_token=' + apiKey + '&per_page=9999').then(function(response){
     for(var i = 0; i < response.length; i ++) {
-
     $('.showRepo').append(
-      "<li>" + "<a href=" + response[i].html_url + ">" + response[i].name + "</a>" +
-      "<p>" + response[i].description + "</p></li>"
+      "<li>" + "<a href=" + response[i].html_url + ">" + response[i].name + "</a></li>" +
+      "<p>" + response[i].description + "</p>"
     );
   }
     console.log(response);

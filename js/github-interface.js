@@ -5,8 +5,10 @@ var apiKey = require('./../.env').apiKey;
 
 
 $(document).ready(function() {
+  $(".userGit").hide();
     $('#userInfo').submit(function(event) {
       event.preventDefault();
+      $(".userGit").show();
       getUser();
       getRepos();
     });

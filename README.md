@@ -1,4 +1,4 @@
-# _Epicodus Code Review: GitHub API _
+# Epicodus Code Review: GitHub API
 
 #### _This is a epicodus project that will use the GitHub API and will bring up public repositories by searching by user name._
 
@@ -12,12 +12,12 @@ _This application will show all the public repositories by searching by user nam
 
 * _Go to GitHub._
 * _Download zip file_
-*_Install_
+* _Install_
 
 
 ## Known Bugs
 
-_There are no known bugs._
+_Media Queries do not work ._
 
 ## Support and contact details
 

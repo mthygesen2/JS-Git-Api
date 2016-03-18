@@ -1,1 +1,1 @@
-var alarmClock = require('./../js/alarmClock.js').alarmClock;
+var alarmClock = require('./../js/broswer.js').alarmClock;

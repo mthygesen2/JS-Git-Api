@@ -8,6 +8,8 @@ $(document).ready(function() {
   $(".userGit").hide();
     $('#userInfo').submit(function(event) {
       event.preventDefault();
+      $(".showName").empty();
+      $(".showRepo").empty();
       $(".userGit").show();
       getUser();
       getRepos();

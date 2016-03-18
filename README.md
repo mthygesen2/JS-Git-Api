@@ -1,16 +1,18 @@
-# _About Mao_
+# _Epicodus Code Review: GitHub API _
 
-#### _This is a epicodus project that will explain to the projects that we are working on along with a little Description of who I am, Jaunary 8, 2016_
+#### _This is a epicodus project that will use the GitHub API and will bring up public repositories by searching by user name._
 
 #### By _**Mao Thygesen**_
 
 ## Description
 
-_This application will showcase all of the projects that are done by Mao Thygesen along with her partners throughout week one of Epicodus. It will also contain a short biography about Mao._
+_This application will show all the public repositories by searching by user name. It will also show avatar image, name, location of the user. For each repository it will also list the description of the repository if it is available._
 
 ## Setup/Installation Requirements
 
-* _There is no Requirements to set up._
+* _Go to GitHub._
+* _Download zip file_
+*_Install_
 
 
 ## Known Bugs
@@ -19,11 +21,11 @@ _There are no known bugs._
 
 ## Support and contact details
 
-_Mao Thygesen mao.thygesen@gmail.com_
+_Contact through GitHub for any questions_
 
 ## Technologies Used
 
-_Used Bootstrap_
+_GitHub API, Sass, Gulp, Bower, Node_
 
 ### License
 

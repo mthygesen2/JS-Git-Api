@@ -2,14 +2,9 @@ body {
   background: $background-color;
   color: $text-color;
   margin: 0;
-  font-family: $font-text;
+  font-family: $font-regular;
   .container {
     display: flex;
     flex-flow: column;
   }
-}
-
-h1 {
-  color: $text-color;
-  font-family: $font-bold;
 }

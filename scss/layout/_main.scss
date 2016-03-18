@@ -1,26 +1,35 @@
+
+.userGit {
+  width: 90%;
+  margin: 0 auto;
+}
 .showName {
-  max-width: 1200px;
+  max-width: 1000px;
   display: flex;
   flex-flow: row;
   margin: auto;
   justify-content: space-around;
   align-items: center;
   font-family: $font-text;
-  color: $light-grey;
+  color: $alternate-color;
   text-align: center;
   font-size: 1.5em;
   height: 300px;
   img {
-    width: 150px;
-    height: 150px;
+    @extend %square;
     border-radius: 50%;
   }
   h1 {
     font-family: $font-bold;
-      color: $light-grey;
   }
 }
 
+.repos {
+  h2 {
+    font-family: $font-regular;
+    font-size: 2em;
+  }
+}
 
 .showRepo {
     list-style:none;
@@ -28,10 +37,11 @@
       font-size: 1.5em;
       a {
         text-decoration: none;
-        color: #E29B8F;
+        color: $mid-purple;
       }
     }
     p {
-      color: #494C4F;
+      color: $text-color;
+      padding-left: 25px;
     }
   }

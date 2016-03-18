@@ -15,6 +15,3 @@ $(document).ready(function() {
       getRepos();
     });
   });
-
-
-  // $('.showName').text(userName);

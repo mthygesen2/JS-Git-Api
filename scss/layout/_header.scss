@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 550px;
+  background-color: $background-dark;
+  img {
+    position: relative;
+    -webkit-animation: myfirst 2s ease-out 1 alternate;
+    animation: myfirst 2s ease-out 1 alternate;
+    @extend %square;
+  }
+}
+
+
+@-webkit-keyframes myfirst {
+  0%   {top:-200px;}
+  50%  {top:50px;}
+  100% {top:0px;}
+}

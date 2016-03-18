@@ -7,6 +7,7 @@ exports.getUser = function(){
   $.get('https://api.github.com/users/' + userName + '?access_token=' + apiKey).then(function(response){
       console.log(response);
     $('.showName').append (
+      "<img src='" + response.avatar_url + "' alt='picture of user'/>" +
       "<h1>" + response.name + "</h1>" +
       "<h4>" + response.login + "</h4>" +
       "<h4>" + response.location + "</h4>"

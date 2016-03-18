@@ -4,6 +4,7 @@
     <!-- <link rel="stylesheet" href="build/css/vendor.css"> -->
     <link rel="stylesheet" href="build/css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Volkhov|Abril+Fatface|News+Cycle:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'>
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Title</title>
@@ -11,15 +12,21 @@
   <body>
     <div class="container">
       <div class="header">
+        <img src="./img/github.png" alt="" />
+        <div class="header__info">
+          <h1>The Git</h1>
+          <p>Take a look at what other people are doing on the Git.</p>
+        </div>
 
-        <h1>GitHub Repositories</h1>
-
-        <form id="userInfo">
-          <label for="name">User Name: </label>
-          <input id="userName"type="text">
-          <button type="submit" name="button">Search</button>
-        </form>
       </div>
+      <div class="userInfo">
+
+      <form id="userInfo">
+        <label for="name">User Name: </label>
+        <input id="userName"type="text">
+        <button type="submit" name="button">Search</button>
+      </form>
+    </div>
       <div class="userGit">
         <div class="showName"></div>
         <div class="repos">

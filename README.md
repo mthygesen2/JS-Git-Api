@@ -1,18 +1,18 @@
-# Epicodus Code Review: GitHub API
-
-#### _This is a epicodus project that will use the GitHub API and will bring up public repositories by searching by user name._
+# GitHub API
 
 #### By _**Mao Thygesen**_
 
 ## Description
 
-_This application will show all the public repositories by searching by user name. It will also show avatar image, name, location of the user. For each repository it will also list the description of the repository if it is available._
+ This is a epicodus project that will use the GitHub API and will bring up public repositories by searching by user name.
+This application will show all the public repositories by searching by user name. It will also show avatar image, name, location of the user. For each repository it will also list the description of the repository if it is available.
+The purpose of this project is to build JavaScript appls with multiple files and manage the external dependencies and to use AJAX to communicate with the backend using the JSON data format. 
 
 ## Setup/Installation Requirements
 
-* _Go to GitHub._
-* _Download zip file_
-* _Install_
+* _Git clone <https://github.com/mthygesen2/JS-codereview1.git>_
+* _Install all dependencies_
+
 
 
 ## Known Bugs

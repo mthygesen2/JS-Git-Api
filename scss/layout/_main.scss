@@ -10,10 +10,9 @@
   margin: auto;
   justify-content: space-around;
   align-items: center;
-  font-family: $font-text;
+  font-family: $font-regular;
   color: $alternate-color;
   text-align: center;
-  font-size: 1.5em;
   height: 300px;
   img {
     @extend %square;

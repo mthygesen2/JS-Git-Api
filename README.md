@@ -11,14 +11,14 @@ The purpose of this project is to build JavaScript appls with multiple files and
 ## Setup/Installation Requirements
 
 * _Git clone <https://github.com/mthygesen2/JS-codereview1.git>_
-*_NOTE: You will need your own GitHub API key to view this project as intended._
-*_In the top level of the project folder, create a file named .env._
-*_In the .env file, type: exports.apiKey = "<YOUR API KEY HERE>"; and save._
-*_In your terminal, run $ npm install._
-*_In your terminal, run $ bower install._
-*_In your terminal, run  $gulp build._ 
-*_In your terminal, run $ gulp serve._
-*_View in browser at localhost:3000_
+* _NOTE: You will need your own GitHub API key to view this project as intended._
+* _In the top level of the project folder, create a file named .env._
+* _In the .env file, type: exports.apiKey = "<YOUR API KEY HERE>"; and save._
+* _In your terminal, run $ npm install._
+* _In your terminal, run $ bower install._
+* _In your terminal, run  $gulp build._ 
+* _In your terminal, run $ gulp serve._
+* _View in browser at localhost:3000_
 
 
 
